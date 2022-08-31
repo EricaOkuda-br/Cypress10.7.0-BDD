@@ -1,0 +1,23 @@
+{
+  "name": "azul-automation-qa-exptripulante",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.1",
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "npm": "^8.18.0",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "esbuild": "^0.15.6",
+    "multiple-cucumber-html-reporter": "^2.0.0"
+  }
+}
